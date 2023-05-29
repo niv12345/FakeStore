@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, SimpleChanges } from '@angular/core';
+import { FakestoreAPIService } from './service/fakestore-api.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FakeStore';
+  productList:any;
+
+  constructor(public fakestoreAPIService:FakestoreAPIService){
+    
+  }
+ 
 }

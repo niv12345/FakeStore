@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    --text-color: #eee;
+    --bkg-color: #252222;
+    --btn-txt-color: rgb(46, 43, 43);
+    --btn-bg-color: rgb(20, 211, 195);
+  }
